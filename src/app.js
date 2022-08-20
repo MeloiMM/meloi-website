@@ -68,11 +68,6 @@ app.get('/weather', (req, res)=>{
 
         })
     })
-    // res.send({
-    //     forecast: 'Super cold',
-    //     location: 'Lipa',
-    //     address: req.query.address
-    // })
 })
 
 app.get('/sample', (req, res)=>{
